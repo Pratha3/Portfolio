@@ -59,13 +59,6 @@ export const DATA = {
       logoUrl: "/path/to/logo.png", // Add the logo URL
     },
     {
-      institution: "Vadodara Institute of Engineering",
-      degree: " Bachelor of Engineering in Computer Science (BE)",
-      start: "2021",
-      end: "2023",
-      logoUrl: "/path/to/logo.png", // Add the logo URL
-    },
-    {
       institution: "Sigma Public School",
       degree: "High School",
       start: "2019",

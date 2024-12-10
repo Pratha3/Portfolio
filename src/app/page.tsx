@@ -20,7 +20,7 @@ export default function Page() {
                 delay={BLUR_FADE_DELAY}
                 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none"
                 yOffset={8}
-                text={`Hi, I&apos;m ${DATA.name.split(" ")[0]} 👋`}
+                text={`Hi, I am ${DATA.name.split(" ")[0]} 👋`}
               />
               <BlurFadeText
                 className="max-w-[600px] md:text-xl"
@@ -97,9 +97,8 @@ export default function Page() {
                   Check out my latest work
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  I&apos;ve worked on a variety of projects, from simple
-                  websites to complex web applications. Here are a few of my
-                  favorites.
+                  I have worked on a variety of projects, from simple websites
+                  to complex web applications. Here are a few of my favorites.
                 </p>
               </div>
             </div>
@@ -133,14 +132,14 @@ export default function Page() {
           <div className="text-center mb-8">
             <BlurFade delay={BLUR_FADE_DELAY * 16}>
               <div className="inline-block px-4 py-2 bg-primary text-white rounded-lg text-sm uppercase tracking-wider">
-                Let's Connect
+                Get in Touch
               </div>
               <h2 className="text-4xl font-bold mt-4 text-gray-900 dark:text-white">
                 We’d Love to Hear From You
               </h2>
               <p className="text-gray-600 dark:text-gray-300 mt-2">
                 Feel free to reach out with any questions, feedback, or just to
-                say hello. Fill out the form below, and we'll get back to you
+                say hello. Fill out the form below, and we will get back to you
                 shortly!
               </p>
             </BlurFade>
